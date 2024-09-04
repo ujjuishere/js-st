@@ -30,4 +30,4 @@ console.log(c);
 //     console.log("Inner D is",d);   
 // }
 
-// console.log("D After the condition is ", d);
+// console.log("D After the condition is ", d)
