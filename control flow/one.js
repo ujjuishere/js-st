@@ -10,3 +10,6 @@ if(false){
 
 // comparision operators
 // <, > , <= , >= , ==(equal or not) , != , ===(value and type both equal)
+
+
+//
