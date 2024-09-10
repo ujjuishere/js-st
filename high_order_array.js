@@ -1,16 +1,27 @@
-function	foo()	{
-    console.log(	this.bar	);
+const arr = [1,2,3,4,5]
+
+// for(const num of arr)
+// {
+//     console.log(num);
+// }
+
+// const greetings = "Hello worlds"
+// for(const greet of greetings ){
+//     console.log(`Each char ${greet}`)
+// }
+// Map stores unique values
+
+const map = new Map()
+map.set('IN', "India")
+map.set('US', "United state")
+map.set('Fr', "France")
+// console.log(map);
+
+const my_obs = {
+    game1: "GAme1",
+    game2: "Hulk"
 }
-var	bar	=	"global";
-var	obj1	=	{
-    bar:	"obj1",
-    foo:	foo
-};
-var	obj2	=	{
-    bar:	"obj2"
-};
-//	--------
-foo();																
-obj1.foo();												
-foo.call(obj2);								
-new	foo();					
+for(const [key,value] of my_obs){
+    console.log(key);  
+}
+
